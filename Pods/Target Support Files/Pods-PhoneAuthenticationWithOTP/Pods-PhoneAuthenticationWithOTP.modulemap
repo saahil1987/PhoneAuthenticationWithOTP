@@ -1,0 +1,6 @@
+framework module Pods_PhoneAuthenticationWithOTP {
+  umbrella header "Pods-PhoneAuthenticationWithOTP-umbrella.h"
+
+  export *
+  module * { export * }
+}

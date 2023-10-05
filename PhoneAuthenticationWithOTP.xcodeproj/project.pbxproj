@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB437FA1E259583244ACEC20 /* Pods_PhoneAuthenticationWithOTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CBB07F28967C7F6123BB93 /* Pods_PhoneAuthenticationWithOTP.framework */; };
+		CA09A0762ACEDF0E0077B714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA09A0752ACEDF0E0077B714 /* AppDelegate.swift */; };
+		CA09A0782ACEDF0E0077B714 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA09A0772ACEDF0E0077B714 /* SceneDelegate.swift */; };
+		CA09A07A2ACEDF0E0077B714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA09A0792ACEDF0E0077B714 /* ViewController.swift */; };
+		CA09A07D2ACEDF0E0077B714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA09A07B2ACEDF0E0077B714 /* Main.storyboard */; };
+		CA09A07F2ACEDF100077B714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA09A07E2ACEDF100077B714 /* Assets.xcassets */; };
+		CA09A0822ACEDF100077B714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA09A0802ACEDF100077B714 /* LaunchScreen.storyboard */; };
+		CA09A08A2ACEE2F30077B714 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA09A0892ACEE2F30077B714 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49F866AED96460DDD185282F /* Pods-PhoneAuthenticationWithOTP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuthenticationWithOTP.release.xcconfig"; path = "Target Support Files/Pods-PhoneAuthenticationWithOTP/Pods-PhoneAuthenticationWithOTP.release.xcconfig"; sourceTree = "<group>"; };
+		56CBB07F28967C7F6123BB93 /* Pods_PhoneAuthenticationWithOTP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhoneAuthenticationWithOTP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF6E2AC2955DFBC0E1533E4 /* Pods-PhoneAuthenticationWithOTP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhoneAuthenticationWithOTP.debug.xcconfig"; path = "Target Support Files/Pods-PhoneAuthenticationWithOTP/Pods-PhoneAuthenticationWithOTP.debug.xcconfig"; sourceTree = "<group>"; };
+		CA09A0722ACEDF0E0077B714 /* PhoneAuthenticationWithOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAuthenticationWithOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA09A0752ACEDF0E0077B714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA09A0772ACEDF0E0077B714 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA09A0792ACEDF0E0077B714 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA09A07C2ACEDF0E0077B714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA09A07E2ACEDF100077B714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA09A0812ACEDF100077B714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA09A0832ACEDF100077B714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA09A0892ACEE2F30077B714 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA09A06F2ACEDF0E0077B714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB437FA1E259583244ACEC20 /* Pods_PhoneAuthenticationWithOTP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4AE48092B0886918DF216B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CF6E2AC2955DFBC0E1533E4 /* Pods-PhoneAuthenticationWithOTP.debug.xcconfig */,
+				49F866AED96460DDD185282F /* Pods-PhoneAuthenticationWithOTP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE763148CE19EF0873BAF392 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56CBB07F28967C7F6123BB93 /* Pods_PhoneAuthenticationWithOTP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA09A0692ACEDF0E0077B714 = {
+			isa = PBXGroup;
+			children = (
+				CA09A0742ACEDF0E0077B714 /* PhoneAuthenticationWithOTP */,
+				CA09A0732ACEDF0E0077B714 /* Products */,
+				A4AE48092B0886918DF216B9 /* Pods */,
+				AE763148CE19EF0873BAF392 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA09A0732ACEDF0E0077B714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA09A0722ACEDF0E0077B714 /* PhoneAuthenticationWithOTP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA09A0742ACEDF0E0077B714 /* PhoneAuthenticationWithOTP */ = {
+			isa = PBXGroup;
+			children = (
+				CA09A0752ACEDF0E0077B714 /* AppDelegate.swift */,
+				CA09A0772ACEDF0E0077B714 /* SceneDelegate.swift */,
+				CA09A0792ACEDF0E0077B714 /* ViewController.swift */,
+				CA09A07B2ACEDF0E0077B714 /* Main.storyboard */,
+				CA09A0892ACEE2F30077B714 /* GoogleService-Info.plist */,
+				CA09A07E2ACEDF100077B714 /* Assets.xcassets */,
+				CA09A0802ACEDF100077B714 /* LaunchScreen.storyboard */,
+				CA09A0832ACEDF100077B714 /* Info.plist */,
+			);
+			path = PhoneAuthenticationWithOTP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA09A0712ACEDF0E0077B714 /* PhoneAuthenticationWithOTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA09A0862ACEDF100077B714 /* Build configuration list for PBXNativeTarget "PhoneAuthenticationWithOTP" */;
+			buildPhases = (
+				9D965CB86FD9C5E81BB8B9A6 /* [CP] Check Pods Manifest.lock */,
+				CA09A06E2ACEDF0E0077B714 /* Sources */,
+				CA09A06F2ACEDF0E0077B714 /* Frameworks */,
+				CA09A0702ACEDF0E0077B714 /* Resources */,
+				1C64682F42F417FACD8BFE3F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneAuthenticationWithOTP;
+			productName = PhoneAuthenticationWithOTP;
+			productReference = CA09A0722ACEDF0E0077B714 /* PhoneAuthenticationWithOTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA09A06A2ACEDF0E0077B714 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CA09A0712ACEDF0E0077B714 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CA09A06D2ACEDF0E0077B714 /* Build configuration list for PBXProject "PhoneAuthenticationWithOTP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA09A0692ACEDF0E0077B714;
+			productRefGroup = CA09A0732ACEDF0E0077B714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA09A0712ACEDF0E0077B714 /* PhoneAuthenticationWithOTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA09A0702ACEDF0E0077B714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09A0822ACEDF100077B714 /* LaunchScreen.storyboard in Resources */,
+				CA09A08A2ACEE2F30077B714 /* GoogleService-Info.plist in Resources */,
+				CA09A07F2ACEDF100077B714 /* Assets.xcassets in Resources */,
+				CA09A07D2ACEDF0E0077B714 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C64682F42F417FACD8BFE3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuthenticationWithOTP/Pods-PhoneAuthenticationWithOTP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhoneAuthenticationWithOTP/Pods-PhoneAuthenticationWithOTP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhoneAuthenticationWithOTP/Pods-PhoneAuthenticationWithOTP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D965CB86FD9C5E81BB8B9A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhoneAuthenticationWithOTP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA09A06E2ACEDF0E0077B714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA09A07A2ACEDF0E0077B714 /* ViewController.swift in Sources */,
+				CA09A0762ACEDF0E0077B714 /* AppDelegate.swift in Sources */,
+				CA09A0782ACEDF0E0077B714 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA09A07B2ACEDF0E0077B714 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA09A07C2ACEDF0E0077B714 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA09A0802ACEDF100077B714 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA09A0812ACEDF100077B714 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA09A0842ACEDF100077B714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA09A0852ACEDF100077B714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA09A0872ACEDF100077B714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF6E2AC2955DFBC0E1533E4 /* Pods-PhoneAuthenticationWithOTP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneAuthenticationWithOTP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itechnolabs.PhoneAuthenticationWithOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA09A0882ACEDF100077B714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49F866AED96460DDD185282F /* Pods-PhoneAuthenticationWithOTP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneAuthenticationWithOTP/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itechnolabs.PhoneAuthenticationWithOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA09A06D2ACEDF0E0077B714 /* Build configuration list for PBXProject "PhoneAuthenticationWithOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA09A0842ACEDF100077B714 /* Debug */,
+				CA09A0852ACEDF100077B714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA09A0862ACEDF100077B714 /* Build configuration list for PBXNativeTarget "PhoneAuthenticationWithOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA09A0872ACEDF100077B714 /* Debug */,
+				CA09A0882ACEDF100077B714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA09A06A2ACEDF0E0077B714 /* Project object */;
+}
